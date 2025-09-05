@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "schema": "http://schema.org/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "spdx": "https://spdx.org/licenses/"
+  },
+  "@graph": [
+    {
+      "@id": "https://github.com/frequenz-floss/frequenz-sdk-python",
+      "@type": [
+        "SoftwareApplication",
+        "doap:Project"
+      ],
+      "name": "frequenz-sdk-python",
+      "description": "Frequenz Python Software Development Kit (SDK)",
+      "codeRepository": "https://github.com/frequenz-floss/frequenz-sdk-python",
+      "programmingLanguage": "Python",
+      "applicationCategory": [
+        "async",
+        "asyncio",
+        "energy",
+        "framework",
+        "frequenz",
+        "library",
+        "python",
+        "python3",
+        "sdk"
+      ],
+      "license": {
+        "@id": "https://spdx.org/licenses/MIT.html"
+      },
+      "hasPart": [
+        "https://github.com/frequenz-floss/frequenz-sdk-python#howto-install"
+      ]
+    },
+    {
+      "@id": "https://github.com/frequenz-floss/frequenz-sdk-python#howto-install",
+      "@type": "HowTo",
+      "name": "Install frequenz-sdk-python",
+      "tool": [
+        "python3 -m pip install frequenz-sdk"
+      ]
+    }
+  ],
+  "dcterms:modified": "2025-09-05T20:43:07.936402+00:00"
+}
